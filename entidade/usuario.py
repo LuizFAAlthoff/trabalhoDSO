@@ -61,3 +61,4 @@ class Usuario:
 
     def mostrar_acordos(self):
         return self.__acordos
+    
