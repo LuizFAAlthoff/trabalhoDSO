@@ -3,14 +3,14 @@ from boto import NullHandler
 
 class Usuario:
     def __init__(self, email: str, senha: str):
-        self.__email == email
-        self.__senha == senha
-        self.__nome == None
-        self.__fone == None
-        self.__cpf == None
-        self.__posicao == None
-        self.__propostas == []
-        self.__acordos == []
+        self.__email = email
+        self.__senha = senha
+        self.__nome = None
+        self.__fone = None
+        self.__cpf = None
+        self.__posicao = None
+        self.__propostas = []
+        self.__acordos = []
 
     @property
     def email(self):
